@@ -1,0 +1,9 @@
+pyyaml>=3.12
+numpy>=1.13.3
+soundfile>=0.9.0.post1
+librosa>=0.5.1
+h5py>=2.7.1
+matplotlib>=2.1.0
+theano>=0.9.0
+hat>=0.1.11	# Deep learning toolbox, https://github.com/qiuqiangkong/Hat
+mir-eval>=0.4
