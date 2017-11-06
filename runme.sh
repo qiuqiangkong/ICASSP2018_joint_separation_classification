@@ -1,7 +1,9 @@
+#!/bin/bash
 # You need to modify your dataset path. 
 DATASET_DIR="/vol/vssp/AP_datasets/audio/dcase2017/task2/TUT-rare-sound-events-2017-development/data/source_data"
 
-WORKSPACE=pwd
+# You can to modify to your own workspace. 
+WORKSPACE=`pwd`
 
 # Create yaml file containing information of mixed event with background. 
 python create_split_data_csv.py --dataset_dir=$DATASET_DIR --workspace=$WORKSPACE
